@@ -1,6 +1,7 @@
-from BDD import Browser
+from selenium.webdriver.common.by import By
+
+from browser import Browser
 
 
-class BasePage(Browser):
-    def navigate_carturesti(self):
-        self.driver.get("https://carturesti.ro/")
+class Base_Page(Browser):
+    pass
